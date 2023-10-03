@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: gray;
+
+        }
+        main{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+<main>    
+<h1> Calculadora </h1>
+
+<label for=""> Ingrese su primer número</label>
+<input type="text" id="num1" required>
+
+<br>
+<br>
+
+<label for="">Operador</label>
+<select id="operador">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="/">/</option>
+<option value="*">*</option>
+</select>
+
+<br>
+<br>
+
+<label for=""> Ingrese su segundo número</label>
+<input type="text" id="num2" required>
+
+<br>
+<br>
+
+<button id="calcular">Calcular</button>
+
+<div id="resultado">
+
+</div>
+</main>
+
+
+<script src="main.js"></script>
+</body>
+</html>
